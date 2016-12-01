@@ -10,9 +10,12 @@ html {
     border: 2px solid red;
 }
 
+a {
+  text-decoration: none;
+}
 .top-nav {
     width: 100%;
-    padding: 46px 75px 46px 75px;
+    padding: 46px 75px 50px 75px;
     background-color: #dfdfdf
 }
 
@@ -37,7 +40,7 @@ html {
     height: 54vh;
     background-color: #bebebe;
     position: relative;
-    padding: 43px;
+    padding: 42px 20px;
     text-align: center;
     color: #fff;
     letter-spacing: 1px;
@@ -80,7 +83,7 @@ html {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: normal;
     line-height: 1.428571429;
     text-align: center;
@@ -103,18 +106,42 @@ html {
     font-weight: 700;
     font-family: 'Open Sans';
     letter-spacing: 1px;
-    padding: 11px 36px;
-    border-radius: 50px;
+    padding: 28px;
+    border-radius: 62px;
     margin: 0 auto;
+    margin-top: 4.1rem;
     text-align: center;
+    width: 91vw;
 }
 
+.mission-statement{
+  padding: 100px 1rem 100px 1rem;
+  text-align: center;
+  background-color: #d6d6d6;
+  color: #3e3c3e;
+  font-size: 2rem;
+  font-family: 'Open Sans';
+  line-height: 3rem;
+}
+.mission-statement strong{
+  font-weight: 500;
+}
 
 .how-it-works {
   height: 100vh;
   background-color: #dcdcdc;
 }
 
+.toolbox-logo:before{
+  content: " ";
+  display: block;
+  background: url(../img/sprite_home.png);
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  background-position: -22px -113px;
+  margin-bottom: 20px;
+}
 .mid-section {
   height: 200vh;
   background-color: #cdcdcd;
