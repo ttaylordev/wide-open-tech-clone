@@ -1,34 +1,34 @@
 * {
-    border: 2px solid red;
+    border: 1px solid red;
+    box-sizing: border-box;
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 29px;
+    font-size: 16px;
     font-family: sans-serif;
     font-family: 'Oswald';
-    border: 2px solid red;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .top-nav {
     width: 100%;
-    padding: 46px 75px 50px 75px;
+    padding: 20px 30px 20px 30px;
     background-color: #dfdfdf
 }
 
 .icon {
-    width: 75px;
-    height: 75px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(42, 231, 43);
     display: inline-block;
 }
 
 .hamburger {
-    width: 75px;
-    height: 75px;
+    width: 30px;
+    height: 30px;
     background-color: red;
     right: 0px;
     display: inline-block;
@@ -37,10 +37,9 @@ a {
 
 .top-section {
     width: 100%;
-    height: 54vh;
     background-color: #bebebe;
     position: relative;
-    padding: 42px 20px;
+    padding: 20px 10px;
     text-align: center;
     color: #fff;
     letter-spacing: 1px;
@@ -62,23 +61,55 @@ a {
 }
 
 .top-section h1 {
-    font-size: 5rem;
+    font-size: 3.7rem;
     text-transform: uppercase;
-    margin: 5px;
+    margin: 2px;
 }
 
-.top-section h2 {
-    font-size: 1.5rem;
+.top-section span {
+    display: block;
+    text-transform: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    font-size: 1.1rem;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 1.1px;
     line-height: 1.1;
 }
 
+.top-section span:before {
+    padding: 3px;
+    width: 20%;
+    border: 1px solid red;
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 5px;
+    margin: 15px;
+    left: auto;
+    right: -20%;
+}
+
+.top-section span:after {
+    padding: 3px;
+    width: 20%;
+    border: 1px solid red;
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 5px;
+    margin: 15px;
+    left: auto;
+    right: -20%;
+}
+
 .top-section h3 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .btn {
     display: inline-block;
     padding: 6px 12px;
@@ -98,7 +129,8 @@ a {
     -o-user-select: none;
     user-select: none;
 }
-.call-to-action-btn{
+
+.call-to-action-btn {
     background: #bdd436;
     border: 2px solid #bdd436;
     color: #FFF;
@@ -106,7 +138,7 @@ a {
     font-weight: 700;
     font-family: 'Open Sans';
     letter-spacing: 1px;
-    padding: 28px;
+    padding: 12px;
     border-radius: 62px;
     margin: 0 auto;
     margin-top: 4.1rem;
@@ -114,42 +146,44 @@ a {
     width: 91vw;
 }
 
-.mission-statement{
-  padding: 100px 1rem 100px 1rem;
-  text-align: center;
-  background-color: #d6d6d6;
-  color: #3e3c3e;
-  font-size: 2rem;
-  font-family: 'Open Sans';
-  line-height: 3rem;
+.mission-statement {
+    padding: 100px 1rem 100px 1rem;
+    text-align: center;
+    background-color: #d6d6d6;
+    color: #3e3c3e;
+    font-size: 2rem;
+    font-family: 'Open Sans';
+    line-height: 3rem;
 }
-.mission-statement strong{
-  font-weight: 500;
+
+.mission-statement strong {
+    font-weight: 500;
 }
 
 .how-it-works {
-  height: 100vh;
-  background-color: #dcdcdc;
+    height: 100vh;
+    background-color: #dcdcdc;
 }
 
-.toolbox-logo:before{
-  content: " ";
-  display: block;
-  background: url(../img/sprite_home.png);
-  width: 75px;
-  height: 75px;
-  margin: 0 auto;
-  background-position: -22px -113px;
-  margin-bottom: 20px;
+.toolbox-logo:before {
+    content: " ";
+    display: block;
+    background: url(../img/sprite_home.png);
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    background-position: -22px -113px;
+    margin-bottom: 20px;
 }
+
 .mid-section {
-  height: 200vh;
-  background-color: #cdcdcd;
+    height: 200vh;
+    background-color: #cdcdcd;
 }
 
 .how-can-we-help {
-  height: 200vh;
-  background-color: #dcdcdc;
+    height: 200vh;
+    background-color: #dcdcdc;
 }
 
 .repair {}
@@ -163,15 +197,15 @@ a {
 .ecommerce {}
 
 .references {
-  height: 100vh;
-  background-color: #cacaca;
+    height: 100vh;
+    background-color: #cacaca;
 }
 
 .card {}
 
 .lets-talk {
-  height: 40vh;
-  background-color: #9d9d9d;
+    height: 40vh;
+    background-color: #9d9d9d;
 }
 
 .lets-talk-logo {}
@@ -189,8 +223,8 @@ a {
 .address-block {}
 
 .bottom-nav {
-  padding: 76px;
-  content: " ";
-  background-color: #fff;
-  color: #000;
+    padding: 76px;
+    content: " ";
+    background-color: #fff;
+    color: #000;
 }
